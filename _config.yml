@@ -1,4 +1,10 @@
 title: designer-baby
 description: Data 259 Project
-theme: jekyll-theme-cayman
+theme: null
 baseurl: "/designer-baby"
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag

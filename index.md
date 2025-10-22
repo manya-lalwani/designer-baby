@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Home
+title: The Ethics of Designer Babies
 ---
 
-# Welcome to Designer Baby
+# [Welcome Message]
 
-This is my Data 259 project.
+Skip the Story:
+- [Population-Level Impacts of Designer Babies](./simulation.md)
+- [Pseudoscientific Ideas in Genetics](./ml.md)
+- [About the Team](./about.md)
 
-Explore the following:
-- [Report](./report.md)
-- [Data Visualizations](./visualizations.md)
+[Narrative/include links in it so it's very story-like]
