@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: designer-baby
 description: Data 259 Project
+baseurl: "/designer-baby"
 
 source              : .
 destination         : ./_site
