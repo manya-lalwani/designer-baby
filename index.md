@@ -13,6 +13,7 @@ The widespread adoption of IVF created the foundation for preimplantation geneti
 - **PGT-M** for monogenic disorders (e.g., cystic fibrosis, Tay-Sachs),
 - **PGT-A** for aneuploidy screening, and
 - **PGT-P** for polygenic traits such as predicted disease risk or complex traits.
+
 Notably, **PGT-P is only legal in the United States**, making the country a major destination for reproductive tourism and raising global ethical questions about trait selection.
 
 ## Benefits of Reproductive Health Advancements: Tay-Sachs as a Case Study
