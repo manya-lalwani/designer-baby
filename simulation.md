@@ -5,7 +5,7 @@ title: Population-Level Impacts
 
 [Intro Text]
 
-### Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation!: **https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing**
+## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation!: **https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing**
 
 Instructions:
 1. Run first cell (Inputs)
@@ -27,7 +27,7 @@ Instructions:
 
 [Examples]
 
-### Simplified Explanation of Mathematical Model
+## Simplified Explanation of Mathematical Model
 
 Our population genetics model follows the statistical modeling theory of modern population genetics, slightly simplified to be useful for our main purposes: to learn about how IVF and gene-editing may impact our population. The model described below is a slight simplification of the code we wrote (sometimes overlooking normalization and other standard practices), but is otherwise representative of how our simulation works.
 
