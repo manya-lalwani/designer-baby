@@ -32,6 +32,7 @@ Instructions:
 Our population genetics model follows the statistical modeling theory of modern population genetics, slightly simplified to be useful for our main purposes: to learn about how IVF and gene-editing may impact our population. The model described below is a slight simplification of the code we wrote (sometimes overlooking normalization and other standard practices), but is otherwise representative of how our simulation works.
 
 To define the first generation, we simulate genotypic values, environmental values, and phenotypic values separately for each trait and each SNP (single nucleotide polymorphism). The phenotypic value is equal to the genotypic value + the environmental value. A genotypic value is represented as 0=aa, 1=Aa,2=AA. For a monogenic recessive trait, 
+
 $$
 G \sim \mathrm{Binomial}(n=2,\, p=0.5)
 $$
@@ -48,5 +49,41 @@ P =
 \end{cases}
 $$
 
+For an uncorrelated polygenic trait,
+
+$$
+\begin{aligned}
+p &\sim \mathrm{Uniform}(0,1) \\
+G &\sim \mathrm{Binomial}(2,\, p), \quad \text{for each SNP and each individual} \\
+\beta &\sim \mathcal{N}\Big(0, \sqrt{V_a / n}\Big) \\
+E &\sim \mathcal{N}\Big(0, \sqrt{V_e}\Big) \\
+P &= G\,\beta + E
+\end{aligned}
+$$
+
+For two correlated polygenic traits,
+
+$$
+\begin{aligned}
+p &\sim \mathrm{Uniform}(0,1) \\
+G &\sim \mathrm{Binomial}(2,\, p), \quad \text{for each SNP, trait, and individual} \\
+\boldsymbol{\beta} &\sim \mathcal{N}_2 \Big(
+\begin{bmatrix} 0 \\ 0 \end{bmatrix},\;
+\begin{bmatrix} 1 & r_g \\ r_g & 1 \end{bmatrix}
+\Big) \\
+\mathbf{E} &\sim \mathcal{N}_2 \Big(
+\begin{bmatrix} 0 \\ 0 \end{bmatrix},\;
+\begin{bmatrix}
+1 - h_1^2 & r_e \sqrt{(1 - h_1^2)(1 - h_2^2)} \\
+r_e \sqrt{(1 - h_1^2)(1 - h_2^2)} & 1 - h_2^2
+\end{bmatrix}
+\Big) \\
+\mathbf{P} &= G \, \boldsymbol{\beta} + \mathbf{E}
+\end{aligned}
+$$
+
+There are two mating simulation modes, random and assortative. Random mode takes a random sample of 2 parents from the population without replacement, with the probability of selection related to the function fitness(phenotype). Assortative mode (meaning that people with similar phenotypes mate together) pairs all individuals in the population and calculates the correlation of the phenotypes of Parent 1 for all pairs with phenotypes of Parent 2 for all pairs. It aims to hit a target correlation of 0.3, although this is not always possible depending on the population.
+
+Each pair of parents produce one offspring. The offspring genotype is selected from the parent genotypes based on Mendelian genetics. If IVF screening is involved, the offspring genotype will be selected 8 times (to represent screening of cells before implantation) and the genotype that maximizes the phenotype will be selected. If gene-editing is involved, the offspring genotype will maximize the phenotype. Then, the environment, genotype, and phenotype values will be calculated as above.
 
 [Outro Text]
