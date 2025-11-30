@@ -27,4 +27,26 @@ Instructions:
 
 [Examples]
 
+### Simplified Explanation of Mathematical Model
+
+Our population genetics model follows the statistical modeling theory of modern population genetics, slightly simplified to be useful for our main purposes: to learn about how IVF and gene-editing may impact our population. The model described below is a slight simplification of the code we wrote (sometimes overlooking normalization and other standard practices), but is otherwise representative of how our simulation works.
+
+To define the first generation, we simulate genotypic values, environmental values, and phenotypic values separately for each trait and each SNP (single nucleotide polymorphism). The phenotypic value is equal to the genotypic value + the environmental value. A genotypic value is represented as 0=aa, 1=Aa,2=AA. For a monogenic recessive trait, 
+\[
+G \sim \mathrm{Binomial}(n=2,\, p=0.5)
+\]
+
+\[
+E = 0
+\]
+
+\[
+P =
+\begin{cases}
+1, & \text{if } G = 0,\\[6pt]
+0, & \text{otherwise.}
+\end{cases}
+\]
+
+
 [Outro Text]
