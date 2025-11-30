@@ -1,1 +1,9 @@
-Navigate to https://manya-lalwani.github.io/designer-baby/ to see the website.
+This is our project repository as well as our website repository.
+
+The website folders/files include _includes, _layouts, _sass, _site, assets, pictures, Gemfile, index.md, ml.md, and simulation.md. All of these files are used to create https://manya-lalwani.github.io/designer-baby/.
+
+The simulation files can be found in simulation_model. We used the files in this folder as intermediate versions of our simulation. The final code can be found at https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing. All results can be obtained by running this Google Colab with different inputs. The inputs we used are explained at https://manya-lalwani.github.io/designer-baby/simulation.html (or the simulation.md file). 
+
+The ML files can be found in ml_model. This folder contains the training data (data.csv) that we collected and used to train our model. It also contains ml_training.ipynb, which contains a link to the Google Colab that we trained our model with: https://colab.research.google.com/drive/1nhAknWM9pID5gHnqR2hKVyxy07JECJIK?usp=sharing. Our final model is uploaded on HuggingFace at https://huggingface.co/mlalwani2004/designer-baby-text-classification. All results can be obtained by inputting the text that we pulled from the company websites to this user-facing Google Colab: https://colab.research.google.com/drive/10NGgPJCPEChjooKmUz8Ngk5bMfdTgtLG?usp=sharing. 
+
+Note: the reason that most of our files are google colabs are because we wanted to be able to embed our code into our website. This was easiest to do if we could share the code directly with a shareable link.
