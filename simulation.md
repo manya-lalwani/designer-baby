@@ -49,7 +49,7 @@ P =
 \end{cases}
 $$
 
-For an uncorrelated polygenic trait, where $ \beta $ are the effect sizes of each SNP,
+For an uncorrelated polygenic trait, where betas are the effect sizes of each SNP,
 
 $$
 \begin{aligned}
