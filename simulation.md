@@ -3,9 +3,27 @@ layout: default
 title: Population-Level Impacts
 ---
 
-[Intro Text]
+## Introduction
 
-## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation!: **https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing**
+As mentioned in the introduction, a major argument favoring the wide unregulated use of gene editing services is the fulfilment of the autonomy of parents to exercise control over their kids based on the idea that they have the highest incentive to act in the best interest of the children being edited. Such arguments call into question whether the sole recipient and beneficiary of gene editing services are the children (and parents of the child) upon who germline editing or selection is being used. Multiple geneticists have alluded to the idea that the widespread use of germline editing will have repercussions for shaping the population level genetics of humans. Jennifer Doudna, who won the Nobel for her work on CRISPR, also writes about the potential CRISPR has for changing human genetics on a population level. Widespread changes would be a result of widespread use and while it would take hundreds of thousands of years before noticeable changes to human genetics occur on a population level, it calls into question whether it is our duty as humans to consider the very distant future of humanity when making reproductive decisions. To illustrate how germline editing has the potential to make ripples in population genetics, we have created a simulation where you can test out the impact of different germline editing and IVF decisions on future generations' diversity.
+
+## Key Definitions and Terms
+
+Before trying out this tool, we wanted to illustrate a few key concepts in genetics.
+
+1. Gene: A gene is any heritable piece of DNA that makes a functional protein or RNA. For each gene in our body, we have two copies: a maternal and paternal copy.  
+2. Allele: Genetic diversity is the result of multiple different versions of the same gene. An allele is the term for a specific form of a gene. A classical definition of evolution in population genetics frames it as a change in allele frequency over time. This means that the ratios of alleles of a specific gene are a good way to measure changes across a population.  
+3. Trait: A trait is a heritable quality.
+4. Genotype: Genetic variants of a trait.
+5. Phenotype: The physical effect of a genotype.
+6. Fitness: Strictly speaking, fitness is defined as the ability for a gene or trait to confer increased potential for heritability of that trait. For instance, a gene or trait with a higher fitness is one that most likely creates adults that are able to mate and pass on the trait to a future generation.
+7. Monogenic trait: A monogenic trait is a trait that is controlled by a singular gene in the entire genome.
+8. Recessive trait: A recessive trait is when both copies of a gene in our body must be the same allele for that allele to portray a trait. For instance, if our maternal copy is allele A and paternal copy is allele a, the effect of the paternal copy would be entirely masked by the maternal copy. So, for a human to have the trait and therefore the fitness effects of allele a, both parents/ copies of the gene must be the same recessive allele.
+9. Polygenic trait: A polygenic trait is a trait that is controlled by a network of many genes in the entire genome.
+10. Loci: A locus is a position on the genome where a gene lies. Think about it as a coordinate system for your genome and the loci are the coordinates.
+11. Single Nucleotide Polymorphism (SNP): SNPs are how we often identify or mark the coordinates of a loci/ gene using known variations in single nucleotides across a population.
+
+## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation: **https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing**
 
 Instructions:
 1. Run first cell (Inputs)
@@ -24,8 +42,6 @@ Instructions:
 14. Run all of the Setup cells and all of the Run Simulation cells.
 15. Run all of the Results cells.
 16. Look at the results! For more information on interpreting results, see the examples below. 
-
-[Examples]
 
 ## Simplified Explanation of Mathematical Model
 
@@ -86,4 +102,20 @@ There are two mating simulation modes, random and assortative. Random mode takes
 
 Each pair of parents produce one offspring. The offspring genotype is selected from the parent genotypes based on Mendelian genetics. If IVF screening is involved, the offspring genotype will be selected 8 times (to represent screening of cells before implantation) and the genotype that maximizes the phenotype will be selected. If gene-editing is involved, the offspring genotype will maximize the phenotype. Then, the environment, genotype, and phenotype values will be calculated as above.
 
-[Outro Text]
+## What are some questions you can ask yourself while using the simulation?
+
+1. How does the spread/ proportion of people using germline editing or IVF influence the popularity, heritability and frequency of traits?
+2. What happens when there is a negative correlation between two traits while one is selected for? This is called antagonistic pleiotropy: when the selection of one desirable trait leads to a decrease in another desirable trait. Think of it as the unfortunate consequence of selecting for certain desirable traits.
+3. How does allele frequency affect the phenotype distribution in monogenic vs polygenic traits?
+4. How does increasing the population size impact how long it takes for the same allele frequency changes?
+5. If a majority of the population begins to employ germline editing, what would diversity in allele frequency for monogenic traits look like?
+
+## Examples (fill in, try this)
+
+<iframe 
+  src="https://docs.google.com/gview?url=https://docs.google.com/document/d/1p40ONdImGQTY8cOzj43KyOeredIPU3DPtQgcsjzxc3c/export?format=pdf&embedded=true"
+  style="width:100%; height:700px;" 
+  frameborder="0">
+</iframe>
+
+[Download PDF](https://docs.google.com/document/d/1p40ONdImGQTY8cOzj43KyOeredIPU3DPtQgcsjzxc3c/export?format=pdf)
