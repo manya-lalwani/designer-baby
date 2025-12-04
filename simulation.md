@@ -31,6 +31,8 @@ Before trying out this tool, we wanted to illustrate a few key concepts in genet
 
 
 
+
+
 Instructions:
 1. Run first cell (Inputs)
 2. In the output of the first cell, input the number of generations you want to simulate.
