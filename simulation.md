@@ -23,7 +23,12 @@ Before trying out this tool, we wanted to illustrate a few key concepts in genet
 10. Loci: A locus is a position on the genome where a gene lies. Think about it as a coordinate system for your genome and the loci are the coordinates.
 11. Single Nucleotide Polymorphism (SNP): SNPs are how we often identify or mark the coordinates of a loci/ gene using known variations in single nucleotides across a population.
 
-## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation: https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing
+## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation:
+
+<a href="https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing">
+  <img src="https://img.shields.io/badge/Try%20the%20Simulation-FF6F00?style=for-the-badge&logo=googlecolab&logoColor=white">
+</a>
+
 
 Instructions:
 1. Run first cell (Inputs)
