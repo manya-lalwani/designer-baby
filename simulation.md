@@ -25,9 +25,10 @@ Before trying out this tool, we wanted to illustrate a few key concepts in genet
 
 ## Learn about IVF, Gene Editing, and Population Genetics by trying out our simulation:
 
-<a href="https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing">
+<a href="https://colab.research.google.com/drive/1SO0jvVLpoY9g3-dU-fgFxAhxk2q8u0_3?usp=sharing" style="display:inline-block; transform: scale(3); transform-origin: top left;">
   <img src="https://img.shields.io/badge/Try%20the%20Simulation-FF6F00?style=for-the-badge&logo=googlecolab&logoColor=white">
 </a>
+
 
 
 Instructions:
