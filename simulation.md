@@ -5,7 +5,7 @@ title: Population-Level Impacts
 
 ## Introduction
 
-As mentioned in the introduction, a major argument favoring the wide unregulated use of gene editing services is the fulfillment of the autonomy of parents to exercise control over their kids based on the idea that they have the highest incentive to act in the best interest of the children being edited. Such arguments call into question whether the sole recipient and beneficiary of gene editing services are the children (and parents of the child) upon who germline editing or selection is being used. Multiple geneticists have alluded to the idea that the widespread use of germline editing will have repercussions for shaping the population level genetics of humans. Jennifer Doudna, who won the Nobel for her work on CRISPR, also writes about the potential CRISPR has for changing human genetics on a population level. Widespread changes would be a result of widespread use and while it would take hundreds of thousands of years before noticeable changes to human genetics occur on a population level, it calls into question whether it is our duty as humans to consider the very distant future of humanity when making reproductive decisions. **To illustrate how germline editing has the potential to make ripples in population genetics, we have created a simulation where you can test out the impact of different germline editing and IVF decisions on future generations' diversity.**
+As mentioned on the home page, a major argument favoring the wide unregulated use of gene editing services is the fulfilment of the autonomy of parents to exercise control over their kids based on the idea that they have the highest incentive to act in the best interest of the children being edited  (Anomaly, 2025). Such arguments call into question whether the sole recipient and beneficiary of gene editing services are the children (and parents of the child) upon whom germline editing or selection is being used. Multiple geneticists have alluded to the idea that the widespread use of germline editing will have repercussions for shaping the population level genetics of humans. Jennifer Doudna, who won the Nobel for her work on CRISPR, also writes about the potential CRISPR has for changing human genetics on a population level (Doudna, 2017). Widespread changes would be a result of widespread use and while it would take hundreds of thousands of years before noticeable changes to human genetics occur on a population level, it calls into question whether it is our duty as humans to consider the very distant future of humanity when making reproductive decisions. **To illustrate how germline editing has the potential to make ripples in population genetics, we have created a simulation where you can test out the impact of different germline editing and IVF decisions on future generations' diversity.**
 
 ## Key Definitions and Terms
 
@@ -49,6 +49,12 @@ Instructions:
 14. Run all of the Setup cells and all of the Run Simulation cells.
 15. Run all of the Results cells.
 16. Look at the results! For more information on interpreting results, see the examples below. 
+
+## How to analyze the output
+
+1. Allele Frequency: The allele density shows how the two alleles in a population might increase or decrease in frequency. For instance, as traits get more desirable and widely edited for, the edited allele would increase in frequency while the unedited allele would decrease. These changes signal how our reproductive decisions can collectively skew the representation of traits in our genome.
+2. Phenotype Density: A direct result to changes in allele frequency is how these allele trend differences impact noticeable phenotypes. Not all changes in allele frequencies will lead to changes in phenotype densities if there are multiple genes controlling the phenotype/trait.
+3. Heritability: It is the amount of a particular trait that is determined by genetics. The rest would be determined by the environment. For instance, due to the complexity of intelligence, it is a trait with a low heritability while something as simple as hair color would be higher in heritability even though both are polygenic.
 
 ## Simplified Explanation of Mathematical Model
 
