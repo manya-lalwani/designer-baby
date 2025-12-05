@@ -28,7 +28,7 @@ To use the model, simply run the set up cells and then based on whether your inp
 
 The model is trained on a dataset we put together ourselves. If you want to know where the entries on our dataset, which will be regularly updated, came from, we recommend you check the below document. Additionally, if you are curious about how we classified things in our dataset as medical need or social need, check our peer-reviewed set of criteria below.
 
-[Download Criteria](https://docs.google.com/document/d/17ebrzU6WOhoOXMozlPmX15n7iNMFYSVjjMYymNoLw2M/edit?usp=sharing)
+[View Criteria](https://docs.google.com/document/d/17ebrzU6WOhoOXMozlPmX15n7iNMFYSVjjMYymNoLw2M/edit?usp=sharing)
 
 ## Results from Using the Model on Ethics Statements from Genetic Editing/IVF Screening Companies
 
