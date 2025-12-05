@@ -117,7 +117,7 @@ Each pair of parents produce one offspring. The offspring genotype is selected f
 4. How does increasing the population size impact how long it takes for the same allele frequency changes?
 5. If a majority of the population begins to employ germline editing, what would diversity in allele frequency for monogenic traits look like?
 
-## Examples (fill in, try this)
+## Examples
 
 <iframe 
   src="https://docs.google.com/gview?url=https://docs.google.com/document/d/1p40ONdImGQTY8cOzj43KyOeredIPU3DPtQgcsjzxc3c/export?format=pdf&embedded=true"
