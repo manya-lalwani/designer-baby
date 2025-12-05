@@ -18,7 +18,7 @@ Notably, **PGT-P is only legal in the United States**, making the country a majo
 
 ## Benefits of Reproductive Health Advancements: Tay-Sachs as a Case Study
 
-Tay-Sachs disease is a fatal neurodegenerative disorder caused by mutations in the ***HEXA*** gene, most common in Ashkenazi Jewish, French-Canadian, and Cajun populations (Lubinsky, 2023). Before the advent of IVF and genetic screening, Tay-Sachs carried devastating consequences and occurred at significantly higher rates in these communities. The introduction of carrier screening in the 1970s, followed by IVF combined with PGT-M, dramatically reduced the number of children born with the disease. Today, Tay-Sachs is one of the most powerful examples of how reproductive technologies can prevent severe genetic disorders and reduce suffering. It demonstrates the potential for genetic tools to serve clear medical goals when applied responsibly.
+Tay-Sachs disease is a fatal neurodegenerative disorder caused by mutations in the *HEXA* gene, most common in Ashkenazi Jewish, French-Canadian, and Cajun populations (Lubinsky, 2023). Before the advent of IVF and genetic screening, Tay-Sachs carried devastating consequences and occurred at significantly higher rates in these communities. The introduction of carrier screening in the 1970s, followed by IVF combined with PGT-M, dramatically reduced the number of children born with the disease. Today, Tay-Sachs is one of the most powerful examples of how reproductive technologies can prevent severe genetic disorders and reduce suffering. It demonstrates the potential for genetic tools to serve clear medical goals when applied responsibly.
 
 ## The Flip Side of Freedom of Choice
 
