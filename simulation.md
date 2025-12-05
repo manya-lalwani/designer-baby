@@ -5,7 +5,7 @@ title: Population-Level Impacts
 
 ## Introduction
 
-As mentioned in the introduction, a major argument favoring the wide unregulated use of gene editing services is the fulfilment of the autonomy of parents to exercise control over their kids based on the idea that they have the highest incentive to act in the best interest of the children being edited. Such arguments call into question whether the sole recipient and beneficiary of gene editing services are the children (and parents of the child) upon who germline editing or selection is being used. Multiple geneticists have alluded to the idea that the widespread use of germline editing will have repercussions for shaping the population level genetics of humans. Jennifer Doudna, who won the Nobel for her work on CRISPR, also writes about the potential CRISPR has for changing human genetics on a population level. Widespread changes would be a result of widespread use and while it would take hundreds of thousands of years before noticeable changes to human genetics occur on a population level, it calls into question whether it is our duty as humans to consider the very distant future of humanity when making reproductive decisions. To illustrate how germline editing has the potential to make ripples in population genetics, we have created a simulation where you can test out the impact of different germline editing and IVF decisions on future generations' diversity.
+As mentioned in the introduction, a major argument favoring the wide unregulated use of gene editing services is the fulfillment of the autonomy of parents to exercise control over their kids based on the idea that they have the highest incentive to act in the best interest of the children being edited. Such arguments call into question whether the sole recipient and beneficiary of gene editing services are the children (and parents of the child) upon who germline editing or selection is being used. Multiple geneticists have alluded to the idea that the widespread use of germline editing will have repercussions for shaping the population level genetics of humans. Jennifer Doudna, who won the Nobel for her work on CRISPR, also writes about the potential CRISPR has for changing human genetics on a population level. Widespread changes would be a result of widespread use and while it would take hundreds of thousands of years before noticeable changes to human genetics occur on a population level, it calls into question whether it is our duty as humans to consider the very distant future of humanity when making reproductive decisions. **To illustrate how germline editing has the potential to make ripples in population genetics, we have created a simulation where you can test out the impact of different germline editing and IVF decisions on future generations' diversity.**
 
 ## Key Definitions and Terms
 
@@ -117,7 +117,7 @@ Each pair of parents produce one offspring. The offspring genotype is selected f
 4. How does increasing the population size impact how long it takes for the same allele frequency changes?
 5. If a majority of the population begins to employ germline editing, what would diversity in allele frequency for monogenic traits look like?
 
-## Examples
+## Examples of how germline editing and IVF can influence future populations (reload a couple of times if blank)
 
 <iframe 
   src="https://docs.google.com/gview?url=https://docs.google.com/document/d/1p40ONdImGQTY8cOzj43KyOeredIPU3DPtQgcsjzxc3c/export?format=pdf&embedded=true"
