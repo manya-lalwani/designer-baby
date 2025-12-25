@@ -40,17 +40,20 @@ This website is a group project for Data 25900. We made it during Fall 2025. We 
 <div style="text-align: center;">
   <div class="image-container">
     <img src="./pictures/manya-profile.jpg" alt="Manya" class="profile-img">
-    <div class="caption">Manya Lalwani: Population Modeling, ML Training</div>
+    <div class="caption">Manya Lalwani</div>
+    <div class="role">Population Modeling, ML Training, Frontend and Backend</div>
   </div>
 
   <div class="image-container">
     <img src="./pictures/sneha-profile.jpg" alt="Sneha" class="profile-img">
-    <div class="caption">Sneha Agarwal: Data Collection, Content Writing</div>
+    <div class="caption">Sneha Agarwal</div>
+    <div class="role">Research, Data Collection, Content Writing</div>
   </div>
 
   <div class="image-container">
     <img src="./pictures/sarah-profile.jpg" alt="Sarah" class="profile-img">
-    <div class="caption">Sarah Whitney: ML Testing</div>
+    <div class="caption">Sarah Whitney</div>
+    <div class="role">ML Testing, Modeling Examples</div>
   </div>
 </div>
 <br>
